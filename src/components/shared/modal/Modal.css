@@ -41,15 +41,3 @@
   background: none;
   margin: 5px;
 }
-
-svg {
-  width: 30px !important;
-  height: 20px !important;
-}
-
-.close-button :focus {
-  outline: none;
-}
-    
-  
-   
