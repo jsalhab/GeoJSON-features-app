@@ -7,18 +7,11 @@ import "./CoordinatesForm.css";
 
 const CoordinatesForm = ({ getData, error }) => {
   const initialValues = {
-    minLong: 11.54,
-    minLat: 48.14,
-    maxLong: 11.543,
-    maxLat: 48.145,
+    minLong: "",
+    minLat: "",
+    maxLong: "",
+    maxLat: "",
   };
-
-  //   const initialValues = {
-  //     minLong: "",
-  //     minLat: "",
-  //     maxLong: "",
-  //     maxLat: "",
-  //   };
 
   const handleSubmit = (data) => {
     getData(data);
